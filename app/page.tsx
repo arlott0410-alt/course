@@ -1,4 +1,3 @@
-\
 export default function Page() {
   const company = "ArmSungMa";
   const courseName = "สร้างเว็บ";
