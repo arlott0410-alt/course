@@ -1,37 +1,37 @@
 export default function Page() {
   const company = "ArmSungMa";
-  const courseName = "สร้างเว็บ";
+  const courseName = "Build Websites";
   const primaryCTA = "Enroll Now";
 
   const learnItems = [
-    { title: "เลือกแนวเว็บที่ขายได้", desc: "วางเป้าหมายเว็บ + กลุ่มลูกค้า + สิ่งที่เว็บต้องทำให้สำเร็จ" },
-    { title: "วางโครงสร้างหน้าเว็บ", desc: "Site map, Sections, CTA และ UX ที่ทำให้คนตัดสินใจง่าย" },
-    { title: "ทำเว็บให้โหลดไว + มือถือสวย", desc: "Mobile-first, Core Web Vitals, SEO พื้นฐาน" },
-    { title: "ต่อระบบเก็บลีด/แชท", desc: "ฟอร์มเก็บข้อมูล + ปุ่ม LINE/WhatsApp + tracking เบื้องต้น" },
-    { title: "ปล่อยเว็บขึ้นใช้งานจริง", desc: "Deploy + โดเมน + checklist ก่อนยิงแอด" },
-    { title: "ปรับปรุงให้ขายดีขึ้น", desc: "A/B test, ปรับ copy, ปรับ CTA และวัดผล" },
+    { title: "Choose a website that sells", desc: "Set website goals + target audience + what your site must achieve" },
+    { title: "Plan your page structure", desc: "Site map, Sections, CTA and UX that make decisions easy" },
+    { title: "Fast loading + mobile-friendly", desc: "Mobile-first, Core Web Vitals, basic SEO" },
+    { title: "Lead capture & chat integration", desc: "Data forms + LINE/WhatsApp buttons + basic tracking" },
+    { title: "Launch your site live", desc: "Deploy + domain + pre-launch checklist" },
+    { title: "Optimize for better sales", desc: "A/B test, refine copy, improve CTA and measure results" },
   ];
 
   const modules = [
-    { title: "Module 1 — เป้าหมาย & แผนเว็บ", bullets: ["กำหนดเป้าหมายเว็บ", "ลูกค้าเป้าหมาย", "โครงสร้าง CTA"] },
-    { title: "Module 2 — โครงสร้างหน้า & Copy", bullets: ["Hero/Benefits", "Proof/FAQ", "Pricing & Offer"] },
-    { title: "Module 3 — Design ที่ดูแพง", bullets: ["Layout + spacing", "สี/ฟอนต์", "Components ที่ใช้บ่อย"] },
-    { title: "Module 4 — SEO & Performance", bullets: ["Title/Meta", "On-page SEO", "ความเร็วเว็บ"] },
-    { title: "Module 5 — Lead & Chat System", bullets: ["ฟอร์มเก็บ lead", "LINE/WhatsApp", "Tracking พื้นฐาน"] },
-    { title: "Module 6 — Deploy & Scale", bullets: ["Deploy", "โดเมน", "เช็คลิสต์ก่อนยิงแอด"] },
+    { title: "Module 1 — Goals & Website Plan", bullets: ["Define website goals", "Target audience", "CTA structure"] },
+    { title: "Module 2 — Page Structure & Copy", bullets: ["Hero/Benefits", "Proof/FAQ", "Pricing & Offer"] },
+    { title: "Module 3 — Premium-looking Design", bullets: ["Layout + spacing", "Colors/fonts", "Common components"] },
+    { title: "Module 4 — SEO & Performance", bullets: ["Title/Meta", "On-page SEO", "Site speed"] },
+    { title: "Module 5 — Lead & Chat System", bullets: ["Lead capture forms", "LINE/WhatsApp", "Basic tracking"] },
+    { title: "Module 6 — Deploy & Scale", bullets: ["Deploy", "Domain", "Pre-launch checklist"] },
   ];
 
   const pricing = [
-    { name: "Starter", price: "฿___", note: "ครั้งเดียว", features: ["เข้าเรียนทั้งหมด", "Template + Checklist", "อัปเดต __ เดือน"], cta: "Enroll" },
-    { name: "Pro", price: "฿___", note: "ครั้งเดียว", popular: true, features: ["ทุกอย่างใน Starter", "Q&A กลุ่ม รายสัปดาห์", "ตรวจหน้าเว็บ 1 ครั้ง"], cta: primaryCTA },
-    { name: "VIP", price: "฿___", note: "ครั้งเดียว", features: ["ทุกอย่างใน Pro", "ซัพพอร์ตใกล้ชิด", "โค้ช 1:1 จำนวน __ ครั้ง"], cta: "Apply for VIP" },
+    { name: "Starter", price: "$___", note: "one-time", features: ["Full course access", "Template + Checklist", "__ months updates"], cta: "Enroll" },
+    { name: "Pro", price: "$___", note: "one-time", popular: true, features: ["Everything in Starter", "Weekly group Q&A", "1 website review"], cta: primaryCTA },
+    { name: "VIP", price: "$___", note: "one-time", features: ["Everything in Pro", "Priority support", "__ sessions of 1:1 coaching"], cta: "Apply for VIP" },
   ];
 
   const faqs = [
-    { q: "เหมาะกับมือใหม่ไหม?", a: "เหมาะครับ เน้นทำจริงทีละขั้น ตั้งแต่โครงหน้า จนถึงปล่อยเว็บขึ้นใช้งาน" },
-    { q: "ต้องมีพื้นฐานโค้ดไหม?", a: "ไม่จำเป็น เริ่มจากศูนย์ได้ (ถ้ามีพื้นฐานจะไปไวขึ้น)" },
-    { q: "เข้าถึงคอร์สได้นานแค่ไหน?", a: "เข้าถึงได้ __ เดือน (ใส่ข้อมูลทีหลังได้)" },
-    { q: "มีซัพพอร์ตไหม?", a: "มีตามแพ็กเกจ Starter/Pro/VIP" },
+    { q: "Is this suitable for beginners?", a: "Yes! We focus on hands-on, step-by-step from planning to launching your site." },
+    { q: "Do I need coding experience?", a: "No. You can start from scratch (prior experience will help you move faster)." },
+    { q: "How long do I have access?", a: "You get __ months of access (fill in details later)." },
+    { q: "Is there support?", a: "Yes, according to your Starter/Pro/VIP package." },
   ];
 
   return (
@@ -43,16 +43,16 @@ export default function Page() {
             <div className="h-9 w-9 rounded-xl bg-gradient-to-br from-fuchsia-500 via-sky-500 to-lime-400" />
             <div className="leading-tight">
               <p className="text-sm font-extrabold">{company}</p>
-              <p className="text-xs text-slate-500">คอร์ส: {courseName}</p>
+              <p className="text-xs text-slate-500">Course: {courseName}</p>
             </div>
           </div>
 
           <nav className="hidden items-center gap-6 text-sm text-slate-600 md:flex">
-            <a href="#learn" className="hover:text-slate-900">สิ่งที่จะได้เรียน</a>
-            <a href="#instructor" className="hover:text-slate-900">ผู้สอน</a>
-            <a href="#modules" className="hover:text-slate-900">โมดูล</a>
-            <a href="#pricing" className="hover:text-slate-900">ราคา</a>
-            <a href="#faq" className="hover:text-slate-900">คำถาม</a>
+            <a href="#learn" className="hover:text-slate-900">What you&apos;ll learn</a>
+            <a href="#instructor" className="hover:text-slate-900">Instructor</a>
+            <a href="#modules" className="hover:text-slate-900">Modules</a>
+            <a href="#pricing" className="hover:text-slate-900">Pricing</a>
+            <a href="#faq" className="hover:text-slate-900">FAQ</a>
           </nav>
 
           <a
@@ -77,19 +77,19 @@ export default function Page() {
           <div className="relative">
             <div className="inline-flex items-center gap-2 rounded-full border border-slate-200 bg-white/70 px-3 py-1 text-xs font-semibold text-slate-700">
               <span className="inline-block h-2 w-2 rounded-full bg-emerald-500" />
-              {company} • เปิดรับสมัครรอบใหม่
+              {company} • Now accepting enrollments
             </div>
 
             <h1 className="mt-4 text-4xl font-extrabold tracking-tight md:text-5xl">
-              สร้างเว็บให้ขายได้{" "}
+              Build websites that sell{" "}
               <span className="bg-gradient-to-r from-fuchsia-600 via-sky-600 to-lime-600 bg-clip-text text-transparent">
-                เริ่มวันนี้
+                Start today
               </span>
             </h1>
 
             <p className="mt-4 text-lg text-slate-600">
-              คอร์ส “{courseName}” จาก {company} — สอนทำ Landing Page แบบขายได้จริง
-              พร้อมฟอร์มเก็บลีด + ปุ่ม LINE/WhatsApp + เช็คลิสต์ Deploy (ใส่รายละเอียดเพิ่มทีหลังได้)
+              The “{courseName}” course from {company} — Learn to build landing pages that actually sell,
+              with lead forms + LINE/WhatsApp buttons + Deploy checklist (add details later)
             </p>
 
             <div className="mt-6 flex flex-col gap-3 sm:flex-row sm:items-center">
@@ -103,7 +103,7 @@ export default function Page() {
                 href="#lead"
                 className="inline-flex items-center justify-center rounded-2xl border border-slate-200 bg-white/80 px-6 py-3 text-sm font-semibold text-slate-900 hover:bg-white"
               >
-                รับบทเรียนฟรี + checklist
+                Get free lessons + checklist
               </a>
             </div>
 
@@ -118,7 +118,7 @@ export default function Page() {
               </div>
               <div className="rounded-2xl border border-slate-200 bg-white/70 p-3">
                 <p className="text-lg font-extrabold">Templates</p>
-                <p className="text-xs text-slate-600">พร้อมใช้</p>
+                <p className="text-xs text-slate-600">Ready to use</p>
               </div>
             </div>
           </div>
@@ -128,19 +128,19 @@ export default function Page() {
             <div className="rounded-3xl border border-slate-200 bg-white/80 p-6 shadow-xl shadow-slate-900/5">
               <h2 className="text-xl font-extrabold">Free starter pack</h2>
               <p className="mt-2 text-sm text-slate-600">
-                กรอกข้อมูลเพื่อรับบทเรียนฟรี + checklist จาก {company} (placeholder)
+                Fill in your details to get free lessons + checklist from {company} (placeholder)
               </p>
 
               <form className="mt-5 space-y-3">
                 <div>
-                  <label className="text-xs font-semibold text-slate-700">ชื่อ</label>
+                  <label className="text-xs font-semibold text-slate-700">Name</label>
                   <input
                     className="mt-1 w-full rounded-2xl border border-slate-200 bg-white px-4 py-3 text-sm outline-none focus:ring-2 focus:ring-sky-300"
                     placeholder="Your name"
                   />
                 </div>
                 <div>
-                  <label className="text-xs font-semibold text-slate-700">อีเมล</label>
+                  <label className="text-xs font-semibold text-slate-700">Email</label>
                   <input
                     type="email"
                     className="mt-1 w-full rounded-2xl border border-slate-200 bg-white px-4 py-3 text-sm outline-none focus:ring-2 focus:ring-fuchsia-300"
@@ -151,10 +151,10 @@ export default function Page() {
                   type="button"
                   className="w-full rounded-2xl bg-slate-900 px-5 py-3 text-sm font-bold text-white hover:opacity-90"
                 >
-                  ส่งให้ฉันเลย
+                  Send it to me
                 </button>
                 <p className="text-xs text-slate-500">
-                  *ตอนนี้เป็นฟอร์มตัวอย่าง (ยังไม่ต่อระบบส่งอีเมล) — เติมทีหลังได้
+                  *This is a sample form (email system not connected yet) — add later
                 </p>
               </form>
             </div>
@@ -164,8 +164,8 @@ export default function Page() {
 
       {/* Learn */}
       <section id="learn" className="mx-auto max-w-6xl px-4 py-16">
-        <h2 className="text-3xl font-extrabold">สิ่งที่คุณจะได้เรียน</h2>
-        <p className="mt-2 text-slate-600">หัวข้อหลักแบบลงมือทำ (แก้รายละเอียดทีหลังได้)</p>
+        <h2 className="text-3xl font-extrabold">What you&apos;ll learn</h2>
+        <p className="mt-2 text-slate-600">Hands-on topics (edit details later)</p>
 
         <div className="mt-8 grid gap-4 md:grid-cols-3">
           {learnItems.map((x) => (
@@ -185,13 +185,13 @@ export default function Page() {
             <div className="flex items-center gap-4">
               <div className="h-16 w-16 rounded-3xl bg-gradient-to-br from-fuchsia-600 via-sky-500 to-lime-400" />
               <div>
-                <p className="text-lg font-extrabold">ผู้สอน (ใส่ชื่อทีหลัง)</p>
+                <p className="text-lg font-extrabold">Instructor (add name later)</p>
                 <p className="text-sm text-slate-600">{company}</p>
               </div>
             </div>
 
             <p className="mt-4 text-sm text-slate-700">
-              ใส่โปรไฟล์ผู้สอน, ผลงาน, ประสบการณ์, จุดเด่น 3 ข้อ (placeholder)
+              Add instructor profile, portfolio, experience, 3 key strengths (placeholder)
             </p>
 
             <div className="mt-5 grid grid-cols-3 gap-3 text-center">
@@ -211,16 +211,16 @@ export default function Page() {
           </div>
 
           <div>
-            <h2 className="text-3xl font-extrabold">เน้นทำจริง ไม่เน้นทฤษฎี</h2>
+            <h2 className="text-3xl font-extrabold">Hands-on, not theory</h2>
             <p className="mt-3 text-slate-600">
-              ได้ template + checklist + ตัวอย่างครบ เพื่อทำเว็บของคุณให้เสร็จและปล่อยขึ้นใช้งานได้จริง
+              Get templates + checklists + full examples to finish and launch your website
             </p>
             <ul className="mt-5 space-y-3 text-sm text-slate-700">
               {[
-                "Roadmap ชัดเจน",
-                "ไฟล์ตัวอย่างพร้อมแก้",
-                "โครงหน้า + copy พร้อมใช้",
-                "เช็คลิสต์ Deploy/SEO",
+                "Clear roadmap",
+                "Editable sample files",
+                "Ready-to-use layouts + copy",
+                "Deploy/SEO checklist",
               ].map((t) => (
                 <li key={t} className="flex gap-3">
                   <span className="mt-1 h-5 w-5 rounded-full bg-emerald-500/15 ring-1 ring-emerald-500/30" />
@@ -234,8 +234,8 @@ export default function Page() {
 
       {/* Modules */}
       <section id="modules" className="mx-auto max-w-6xl px-4 py-16">
-        <h2 className="text-3xl font-extrabold">โมดูลคอร์ส</h2>
-        <p className="mt-2 text-slate-600">โครงสร้างคอร์ส (placeholder)</p>
+        <h2 className="text-3xl font-extrabold">Course modules</h2>
+        <p className="mt-2 text-slate-600">Course structure (placeholder)</p>
 
         <div className="mt-8 grid gap-4 md:grid-cols-2">
           {modules.map((m) => (
@@ -257,13 +257,13 @@ export default function Page() {
       {/* Testimonials */}
       <section className="border-y border-slate-200 bg-slate-50/60">
         <div className="mx-auto max-w-6xl px-4 py-16">
-          <h2 className="text-3xl font-extrabold">ผลลัพธ์ผู้เรียน</h2>
-          <p className="mt-2 text-slate-600">ใส่รีวิวจริงทีหลังได้</p>
+          <h2 className="text-3xl font-extrabold">Student results</h2>
+          <p className="mt-2 text-slate-600">Add real reviews later</p>
 
           <div className="mt-8 grid gap-4 md:grid-cols-3">
-            {["รีวิว A", "รีวิว B", "รีวิว C"].map((t) => (
+            {["Review A", "Review B", "Review C"].map((t) => (
               <div key={t} className="rounded-3xl border border-slate-200 bg-white p-6">
-                <p className="text-sm text-slate-700">“{t} — ใส่คำรีวิวจริงทีหลัง”</p>
+                <p className="text-sm text-slate-700">“{t} — Add real review text later”</p>
                 <div className="mt-4 flex items-center justify-between">
                   <div>
                     <p className="text-sm font-extrabold">Student Name</p>
@@ -278,15 +278,15 @@ export default function Page() {
           </div>
 
           <p className="mt-6 text-xs text-slate-500">
-            ผลลัพธ์แตกต่างกันตามความพยายามและบริบทของผู้เรียน
+            Results vary based on effort and student context
           </p>
         </div>
       </section>
 
       {/* Pricing */}
       <section id="pricing" className="mx-auto max-w-6xl px-4 py-16">
-        <h2 className="text-3xl font-extrabold">ราคาแพ็กเกจ</h2>
-        <p className="mt-2 text-slate-600">ตอนนี้ยังไม่ใส่ราคา ก็ใช้ placeholder ไปก่อน</p>
+        <h2 className="text-3xl font-extrabold">Pricing</h2>
+        <p className="mt-2 text-slate-600">Prices not set yet — placeholder for now</p>
 
         <div className="mt-8 grid gap-4 md:grid-cols-3">
           {pricing.map((p) => (
@@ -300,7 +300,7 @@ export default function Page() {
             >
               {p.popular && (
                 <div className="absolute -top-3 left-6 rounded-full bg-gradient-to-r from-fuchsia-600 via-sky-600 to-lime-500 px-3 py-1 text-xs font-extrabold text-white">
-                  แนะนำ
+                  Recommended
                 </div>
               )}
 
@@ -333,7 +333,7 @@ export default function Page() {
       {/* FAQ */}
       <section id="faq" className="border-t border-slate-200 bg-white">
         <div className="mx-auto max-w-6xl px-4 py-16">
-          <h2 className="text-3xl font-extrabold">คำถามที่พบบ่อย</h2>
+          <h2 className="text-3xl font-extrabold">Frequently asked questions</h2>
           <div className="mt-8 grid gap-4 md:grid-cols-2">
             {faqs.map((f) => (
               <details key={f.q} className="rounded-3xl border border-slate-200 bg-white p-6">
@@ -354,9 +354,9 @@ export default function Page() {
             <div className="rounded-3xl bg-white p-8 md:p-10">
               <div className="grid gap-8 md:grid-cols-2 md:items-center">
                 <div>
-                  <h2 className="text-3xl font-extrabold">พร้อมเริ่มแล้วใช่ไหม?</h2>
+                  <h2 className="text-3xl font-extrabold">Ready to get started?</h2>
                   <p className="mt-2 text-slate-600">
-                    สมัครเรียน หรือทักมาถามรายละเอียดผ่าน LINE/WhatsApp (ใส่ลิงก์จริงทีหลัง)
+                    Enroll now or reach out via LINE/WhatsApp for questions (add real links later)
                   </p>
                   <div className="mt-6 flex flex-col gap-3 sm:flex-row">
                     <a
@@ -369,15 +369,15 @@ export default function Page() {
                       href="#lead"
                       className="inline-flex items-center justify-center rounded-2xl border border-slate-200 bg-white px-6 py-3 text-sm font-bold hover:bg-slate-50"
                     >
-                      รับบทเรียนฟรี
+                      Get free lessons
                     </a>
                   </div>
                 </div>
 
                 <div className="rounded-3xl border border-slate-200 bg-slate-50 p-6">
-                  <p className="text-sm font-extrabold">แชทสอบถาม</p>
+                  <p className="text-sm font-extrabold">Chat for inquiries</p>
                   <p className="mt-2 text-sm text-slate-600">
-                    แก้ลิงก์ด้านล่างเป็นของจริงได้ทันที
+                    Update the links below when ready
                   </p>
 
                   <div className="mt-5 grid gap-3">
@@ -408,7 +408,7 @@ export default function Page() {
           </div>
 
           <footer className="mx-auto mt-10 max-w-6xl px-1 pb-8 text-xs text-slate-500">
-            หมายเหตุ: หน้านี้เป็นไฟล์พร้อมรัน (Next.js + Tailwind) — เติมข้อมูลจริงทีหลังได้
+            Note: This is a ready-to-run page (Next.js + Tailwind) — add real content later
           </footer>
         </div>
       </section>
